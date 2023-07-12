@@ -35,3 +35,13 @@
     line-height: 3;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        height: 30px;
+    }
+
+    .navigation a{
+        font-size: 1rem;
+    }
+}
