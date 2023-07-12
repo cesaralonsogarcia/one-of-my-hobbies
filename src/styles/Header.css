@@ -2,7 +2,7 @@
     background: #284b63;
     height: 100px;
     width: 100%;
-    padding-top: 20px;
+    padding: 10px 0 10px 0;
     display: flex;
     justify-content: center;
     font-family: 'broadway', sans-serif;
