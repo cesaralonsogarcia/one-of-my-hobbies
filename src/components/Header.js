@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Header.css';
-import Navigation from './Navigation';
 
 function Header() {
     return (
@@ -9,7 +8,6 @@ function Header() {
                 <h1>CAG</h1>
                 <h3>Cesar Alonso Garcia</h3>
             </div>
-            <Navigation />
         </header>
     );
 }

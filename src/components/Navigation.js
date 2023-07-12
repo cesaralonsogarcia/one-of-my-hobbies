@@ -1,17 +1,57 @@
-import React from 'react';
-import '../styles/Navigation.css';
+import React from "react";
+import "../styles/Navigation.css";
 
-function Navigation() {
-    return (
-        <nav className="navigation">
-            <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1N9Zu6hYV0Y6g0p7Z1L9q2X8RJZy9x8Jb/view?us">Resume</a></li>
-            </ul>
-        </nav>
-    );
+function Navigation({ currentPage, handlePageChange }) {
+  return (
+    <nav className="navigation">
+      <ul>
+        <li>
+          <a
+            href="#aboutme"
+            onClick={() => handlePageChange("AboutMe")}
+            className={
+              currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+            }
+          >
+            About me
+          </a>
+        </li>
+        <li>
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            className={
+              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            }
+          >
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </a>
+        </li>
+        <li>
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navigation;
