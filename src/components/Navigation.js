@@ -4,6 +4,10 @@ import '../styles/Navigation.css';
 function Navigation() {
     return (
         <nav className="navigation">
+            <div>
+                <h1>CAG</h1>
+                <h3>Cesar Alonso Garcia</h3>
+            </div>
             <ul>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
