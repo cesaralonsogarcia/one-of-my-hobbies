@@ -4,6 +4,7 @@ import "../styles/Navigation.css";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navigation">
+      <div>
       <ul>
         <li>
           <a
@@ -50,6 +51,7 @@ function Navigation({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }

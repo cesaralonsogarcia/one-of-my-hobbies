@@ -5,10 +5,10 @@ export default function AboutMe() {
     <div className="card m-3" >
       <h4 className="card-header">About Me</h4>
       <div className="row card-body">
-        <div className="col-4 justify-content-center align-items-center">
-          <img src="" alt="Cesar Alonso Garcia" />
+        <div className="col-sm-4 justify-content-center align-items-center">
+          <img className="card-img" src="../../../../public/images/CAG-profile-photo.jpeg" alt="Cesar Alonso Garcia" />
         </div>
-        <div className="col-8">
+        <div className="col-sm-8">
           <p>
             I am an Electrical Engineer with 11 years of professional experience
             currently working for Heads Up Technologies. Most of my experience
