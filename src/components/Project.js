@@ -1,24 +1,25 @@
-import React from 'react';
-import '../styles/Project.css';
+import React from "react";
+import "../styles/Project.css";
 
 function Project() {
-    return (
-        <section className="project">
-            <h2>Projects</h2>
-            <div className="project-container">
-                <div className="project-card">
-                    <h3>Project 1</h3>
-                    <img src="https://via.placeholder.com/150" alt="Project 1" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    </div>
-                <div className="project-card">
-                    <h3>Project 2</h3>
-                    <img src="https://via.placeholder.com/150" alt="Project 2" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                </div>
-                </div>
-            </section>
-    );
+  return (
+    <div className="col-sm-4">
+      <div className="card m-3">
+        <img
+          src="https://via.placeholder.com/150"
+          className="card-img-top"
+          alt="placeholder"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Project 1</h5>
+          <p className="card-text">Description of Project 1</p>
+          <a href="" className="btn btn-primary">
+            Go to Project 1
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Project;
