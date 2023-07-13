@@ -1,11 +1,57 @@
 import React, { useState } from 'react';
 import '../styles/Header.css';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Navigation from './Navigation';
 import Footer from './Footer';
+
+const projects = [
+    {
+        id: 1,
+        name: 'FurFaceBook',
+        image: 'furfacebook',
+        github: 'https://github.com/Williamatthewood/FurFaceBook',
+        deployed: 'https://furfacebook-app.herokuapp.com/',
+    },
+    {
+        id: 2,
+        name: 'Weather Dashboard',
+        image: 'weather-dashboard',
+        github: 'https://github.com/cesaralonsogarcia/weather-dashboard',
+        deployed: 'https://cesaralonsogarcia.github.io/weather-dashboard/',
+    },
+    {
+        id: 3,
+        name: 'Work Day Scheduler',
+        image: 'work-day-scheduler',
+        github: 'https://github.com/cesaralonsogarcia/work-day-scheduler',
+        deployed: 'https://cesaralonsogarcia.github.io/work-day-scheduler/',
+    },
+    {
+        id: 4,
+        name: 'Code Quiz',
+        image: 'code-quiz',
+        github: 'https://github.com/cesaralonsogarcia/code-quiz',
+        deployed: 'https://cesaralonsogarcia.github.io/code-quiz/',
+    },
+    {
+        id: 5,
+        name: 'Password Generator',
+        image: 'password-generator-screenshot',
+        github: 'https://github.com/cesaralonsogarcia/password-generator',
+        deployed: 'https://cesaralonsogarcia.github.io/password-generator/',
+    },
+    {
+        id: 6,
+        name: 'Note Taker',
+        image: 'note-taker-screenshot',
+        github: 'https://github.com/cesaralonsogarcia/note-taker',
+        deployed: 'https://cag-note-taker-app.herokuapp.com/',
+    },
+];
+
 
 function Header() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -15,7 +61,7 @@ function Header() {
             return <AboutMe />;
         }
         if (currentPage === 'Portfolio') {
-            return <Portfolio />;
+            return <Portfolio projects={projects}/>;
         }
         if (currentPage === 'Contact') {
             return <Contact />;

@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h4 className="card-header">About Me</h4>
       <div className="row card-body">
         <div className="col-sm-4 justify-content-center align-items-center">
-          <img className="card-img" src={require("../../images/CAG-profile-photo.jpeg")} alt="Cesar Alonso Garcia" />
+          <img className="card-img" src={require("./images/CAG-profile-photo.jpeg")} alt="Cesar Alonso Garcia" />
         </div>
         <div className="col-sm-8">
           <p>

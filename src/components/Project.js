@@ -1,20 +1,22 @@
 import React from "react";
 import "../styles/Project.css";
 
-function Project() {
+function Project(props) {
   return (
     <div className="col-sm-4">
       <div className="card m-3">
         <img
-          src="https://via.placeholder.com/150"
+          src={require("./pages/Portfolio/images/" + props.image + ".png")}
           className="card-img-top"
-          alt="placeholder"
+          alt={props.name}
         />
-        <div className="card-body">
-          <h5 className="card-title">Project 1</h5>
-          <p className="card-text">Description of Project 1</p>
-          <a href="" className="btn btn-primary">
-            Go to Project 1
+        <div className="card-body text-center">
+          <h5 className="card-title">{props.name}</h5>
+          <a href="" className="btn btn-info mx-3">
+            App
+          </a>
+          <a href="" className="btn btn-dark mx-3">
+            GitHub
           </a>
         </div>
       </div>
