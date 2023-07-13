@@ -90,7 +90,11 @@ export default function Contact() {
             onBlur={handleOnBlur}
           />
         </div>
-        <button type="submit" className="btn btn-primary my-3">
+        <button 
+        type="submit" 
+        className="btn btn-primary my-3"
+        onClick={handleFormSubmit}
+        >
           Submit
         </button>
       </form>
