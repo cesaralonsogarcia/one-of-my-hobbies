@@ -42,7 +42,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Application Screenshot
 
-![CAG React Portfolio](link)
+![CAG React Portfolio](https://github.com/cesaralonsogarcia/one-of-my-hobbies/blob/main/src/components/pages/AboutMe/images/portfolio-screenshot.PNG)
 
 ## Deployed Application
 
