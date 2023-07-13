@@ -11,11 +11,6 @@ export default function Portfolio(props) {
                     <Project id={project.id} name={project.name} image={project.image} github={project.github} deployed={project.deployed} />
                 ))}
             </div>
-            {/*<div className="row">
-                <Project />
-                <Project />
-                <Project />
-                </div>*/}
         </div>
     )
 }

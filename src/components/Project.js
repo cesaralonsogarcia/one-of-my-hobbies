@@ -12,10 +12,10 @@ function Project(props) {
         />
         <div className="card-body text-center">
           <h5 className="card-title">{props.name}</h5>
-          <a href="" className="btn btn-info mx-3">
+          <a href={props.deployed} className="btn btn-info mx-3">
             App
           </a>
-          <a href="" className="btn btn-dark mx-3">
+          <a href={props.github} className="btn btn-dark mx-3">
             GitHub
           </a>
         </div>

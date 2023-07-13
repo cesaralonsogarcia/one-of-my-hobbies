@@ -3,7 +3,7 @@ import '../styles/Header.css';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Resume from './pages/Resume/Resume';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
