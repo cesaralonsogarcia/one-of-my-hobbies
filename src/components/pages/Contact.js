@@ -2,6 +2,8 @@ import React, {useState } from "react";
 
 import { validateEmail } from "../../utils/helpers";
 
+// This function displays the Contact section
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

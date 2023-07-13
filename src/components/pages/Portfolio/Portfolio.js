@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from '../../Project';
 
+// This function displays the Portfolio section
+
 export default function Portfolio(props) {
     return (
         <div>

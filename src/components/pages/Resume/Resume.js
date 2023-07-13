@@ -1,5 +1,7 @@
 import React from "react";
 
+// This function displays the Resume section
+
 export default function Resume() {
   return (
     <div className="card m-3" >

@@ -7,6 +7,8 @@ import Resume from './pages/Resume/Resume';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
+// Array of objects for the projects
+
 const projects = [
     {
         id: 1,
@@ -52,6 +54,7 @@ const projects = [
     },
 ];
 
+// This function displays the Header
 
 function Header() {
     const [currentPage, setCurrentPage] = useState('AboutMe');

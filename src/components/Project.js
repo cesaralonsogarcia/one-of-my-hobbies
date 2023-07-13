@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Project.css";
 
+// This function contains the cards for the projects
+
 function Project(props) {
   return (
     <div className="col-sm-4">

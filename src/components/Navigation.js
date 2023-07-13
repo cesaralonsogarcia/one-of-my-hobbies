@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Navigation.css";
 
+// This function displays the Navigation bar
+
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navigation">

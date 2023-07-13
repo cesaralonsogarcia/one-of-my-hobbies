@@ -1,5 +1,7 @@
 import React from "react";
 
+// This function displays the About Me section
+
 export default function AboutMe() {
   return (
     <div className="card m-3" >
