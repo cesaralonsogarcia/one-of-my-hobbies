@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/one-of-my-hobbies/static/css/main.5e63a2df.css",
-    "main.js": "/one-of-my-hobbies/static/js/main.f08c0d75.js",
+    "main.js": "/one-of-my-hobbies/static/js/main.aa832f07.js",
+    "static/media/premier_neighborhood_services.png": "/one-of-my-hobbies/static/media/premier_neighborhood_services.1f179c20add57f299453.png",
     "static/media/CAG-profile-photo.jpeg": "/one-of-my-hobbies/static/media/CAG-profile-photo.b6eb6b12c2b91c9a3b22.jpeg",
     "static/media/furfacebook.png": "/one-of-my-hobbies/static/media/furfacebook.5c7b299b319025171b8c.png",
     "static/media/cesaragarcia.pdf": "/one-of-my-hobbies/static/media/cesaragarcia.2f38b127725c3125b025.pdf",
@@ -13,10 +14,10 @@
     "static/media/note-taker-screenshot.png": "/one-of-my-hobbies/static/media/note-taker-screenshot.d00e25728d3640fbace8.png",
     "index.html": "/one-of-my-hobbies/index.html",
     "main.5e63a2df.css.map": "/one-of-my-hobbies/static/css/main.5e63a2df.css.map",
-    "main.f08c0d75.js.map": "/one-of-my-hobbies/static/js/main.f08c0d75.js.map"
+    "main.aa832f07.js.map": "/one-of-my-hobbies/static/js/main.aa832f07.js.map"
   },
   "entrypoints": [
     "static/css/main.5e63a2df.css",
-    "static/js/main.f08c0d75.js"
+    "static/js/main.aa832f07.js"
   ]
 }
