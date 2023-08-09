@@ -12,10 +12,10 @@ import Footer from './Footer';
 const projects = [
     {
         id: 1,
-        name: 'FurFaceBook',
-        image: 'furfacebook',
-        github: 'https://github.com/Williamatthewood/FurFaceBook',
-        deployed: 'https://furfacebook-app.herokuapp.com/',
+        name: 'Premier Neighboorhood Services',
+        image: 'premier_neighborhood_services',
+        github: 'https://github.com/JerrickJohnson/Premier_Neighborhood_Services',
+        deployed: 'https://quiet-escarpment-66655-0aff3ec3178e.herokuapp.com/',
     },
     {
         id: 2,
